@@ -30,7 +30,7 @@ export default class Home extends Component {
 
 	testApiCall() {
 		const queryHelloWorld = `query Query {
-		  helloWorld
+		  message
 		}`;
 
 		return API.graphql(graphqlOperation(queryHelloWorld));
@@ -38,7 +38,7 @@ export default class Home extends Component {
 
 	renderTestAPI(testApiCall) {
 		console.log(testApiCall);
-		return testApiCall.data.helloWorld;
+		return testApiCall.data.message;
 	}
 
 	renderLander() {
