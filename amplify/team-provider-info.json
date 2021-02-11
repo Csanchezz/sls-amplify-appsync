@@ -1,23 +1,15 @@
 {
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-webclientappsynctest-dev-202800-authRole",
-            "UnauthRoleArn": "arn:aws:iam::906025517187:role/amplify-webclientappsynctest-dev-202800-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::906025517187:role/amplify-webclientappsynctest-dev-202800-authRole",
-            "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-webclientappsynctest-dev-202800-deployment",
-            "UnauthRoleName": "amplify-webclientappsynctest-dev-202800-unauthRole",
-            "StackName": "amplify-webclientappsynctest-dev-202800",
-            "StackId": "arn:aws:cloudformation:us-east-1:906025517187:stack/amplify-webclientappsynctest-dev-202800/3922f710-0aa0-11eb-801a-0a1540e225b5",
-            "AmplifyAppId": "dthivbkrsa0d8"
-        },
-        "categories": {
-            "hosting": {
-                "amplifyhosting": {
-                    "appId": "dthivbkrsa0d8",
-                    "type": "manual"
-                }
-            }
-        }
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-loyaltyportal-dev-143704-authRole",
+      "UnauthRoleArn": "arn:aws:iam::909118383531:role/amplify-loyaltyportal-dev-143704-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::909118383531:role/amplify-loyaltyportal-dev-143704-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-loyaltyportal-dev-143704-deployment",
+      "UnauthRoleName": "amplify-loyaltyportal-dev-143704-unauthRole",
+      "StackName": "amplify-loyaltyportal-dev-143704",
+      "StackId": "arn:aws:cloudformation:us-east-1:909118383531:stack/amplify-loyaltyportal-dev-143704/e6873be0-6ca8-11eb-8720-0a5cf73de175",
+      "AmplifyAppId": "d2gra2khbem13f"
     }
+  }
 }
