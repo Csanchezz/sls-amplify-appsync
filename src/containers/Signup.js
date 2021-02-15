@@ -49,9 +49,9 @@ export default class Signup extends Component {
 				attributes: {
 					email: this.state.email
 				},
-				validationData: {
+				validationData: [{
 					email: this.state.email
-				}
+				}]
 			});
 			this.setState({
 				newUser
