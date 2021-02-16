@@ -1,23 +1,28 @@
 {
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-loyaltyportal-dev-143704-authRole",
-            "UnauthRoleArn": "arn:aws:iam::909118383531:role/amplify-loyaltyportal-dev-143704-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::909118383531:role/amplify-loyaltyportal-dev-143704-authRole",
-            "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-loyaltyportal-dev-143704-deployment",
-            "UnauthRoleName": "amplify-loyaltyportal-dev-143704-unauthRole",
-            "StackName": "amplify-loyaltyportal-dev-143704",
-            "StackId": "arn:aws:cloudformation:us-east-1:909118383531:stack/amplify-loyaltyportal-dev-143704/e6873be0-6ca8-11eb-8720-0a5cf73de175",
-            "AmplifyAppId": "d2gra2khbem13f"
-        },
-        "categories": {
-            "hosting": {
-                "amplifyhosting": {
-                    "appId": "d2gra2khbem13f",
-                    "type": "cicd"
-                }
-            }
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-loyaltyportal-dev-143704-authRole",
+      "UnauthRoleArn": "arn:aws:iam::909118383531:role/amplify-loyaltyportal-dev-143704-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::909118383531:role/amplify-loyaltyportal-dev-143704-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-loyaltyportal-dev-143704-deployment",
+      "UnauthRoleName": "amplify-loyaltyportal-dev-143704-unauthRole",
+      "StackName": "amplify-loyaltyportal-dev-143704",
+      "StackId": "arn:aws:cloudformation:us-east-1:909118383531:stack/amplify-loyaltyportal-dev-143704/e6873be0-6ca8-11eb-8720-0a5cf73de175",
+      "AmplifyAppId": "d2gra2khbem13f"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2gra2khbem13f",
+          "type": "cicd"
         }
+      },
+      "auth": {
+        "loyaltyportal": {
+          "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"120194599955353\",\"client_secret\":\"39aee978e61bc202758c30de06caaec7\"},{\"ProviderName\":\"Google\",\"client_id\":\"407743970499-9r6duq32t5vngb40lojhfkmolq4tdt0t.apps.googleusercontent.com407743970499-9r6duq32t5vngb40lojhfkmolq4tdt0t.apps.googleusercontent.com\",\"client_secret\":\"cK7rk0TVo5bm67KULR-Z203L\"}]"
+        }
+      }
     }
+  }
 }
