@@ -68,8 +68,12 @@ class App extends Component {
 									<LinkContainer to="/login">
 										<NavItem>Login</NavItem>
 									</LinkContainer>
-									<NavItem><button onClick={() => Auth.federatedSignIn({provider: 'Facebook'})}>Open Facebook</button></NavItem>
-									<NavItem><button onClick={() => Auth.federatedSignIn({provider: 'Google'})}>Open Google</button></NavItem>
+									<LinkContainer to="/facebook">
+										<NavItem>Facebook</NavItem>
+									</LinkContainer>
+									<LinkContainer to="/google">
+										<NavItem>Google</NavItem>
+									</LinkContainer>
 								</Fragment>
 							)}
 						</Nav>
