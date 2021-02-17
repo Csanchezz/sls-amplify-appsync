@@ -3,12 +3,12 @@
 
 const awsmobile = {
     "aws_project_region": "us-east-1",
-    "aws_cognito_identity_pool_id": "us-east-1:cce8ba3e-09dd-4eb8-be97-d3ccc0ef3754",
+    "aws_cognito_identity_pool_id": "us-east-1:2b8eee6c-2264-4fdf-8611-58eb1b7f56fd",
     "aws_cognito_region": "us-east-1",
-    "aws_user_pools_id": "us-east-1_SglU9NgnQ",
-    "aws_user_pools_web_client_id": "43nbp301msumki442fmh74l4s3",
+    "aws_user_pools_id": "us-east-1_DBMiDwn5J",
+    "aws_user_pools_web_client_id": "6vhnvu596avaai1ukom20ko6mb",
     "oauth": {
-        "domain": "98yvc1f8u558-dev.auth.us-east-1.amazoncognito.com",
+        "domain": "webclientappsynctest615c2a5b-615c2a5b-dev.auth.us-east-1.amazoncognito.com",
         "scope": [
             "phone",
             "email",
@@ -16,8 +16,8 @@ const awsmobile = {
             "profile",
             "aws.cognito.signin.user.admin"
         ],
-        "redirectSignIn": "https://localhost:3000/",
-        "redirectSignOut": "https://localhost:3000/",
+        "redirectSignIn": "http://localhost:30000/",
+        "redirectSignOut": "http://localhost:3000/",
         "responseType": "code"
     },
     "federationTarget": "COGNITO_USER_POOLS"

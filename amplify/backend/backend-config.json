@@ -1,12 +1,6 @@
 {
-  "hosting": {
-    "amplifyhosting": {
-      "service": "amplifyhosting",
-      "type": "cicd"
-    }
-  },
   "auth": {
-    "loyaltyportal": {
+    "webclientappsynctest615c2a5b": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
