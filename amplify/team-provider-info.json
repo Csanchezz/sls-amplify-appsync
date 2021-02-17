@@ -16,6 +16,12 @@
         "webclientappsynctest615c2a5b": {
           "hostedUIProviderCreds": "[]"
         }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2vsof0rkhk6ua",
+          "type": "cicd"
+        }
       }
     }
   }
